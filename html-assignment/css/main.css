@@ -32,3 +32,9 @@ a:link{
     background: #CEE0DC;
     border: 2px solid #6C6F7D;
 }
+
+a:hover{
+    text-decoration: none;
+    background: #DDC8C4;
+    border: 2px solid #6C6F7D;
+}
