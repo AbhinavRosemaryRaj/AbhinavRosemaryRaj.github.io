@@ -26,3 +26,7 @@ li:nth-child(odd){
 nav ul{
     list-style: none;
 }
+
+a:link{
+    text-decoration: none;
+}
