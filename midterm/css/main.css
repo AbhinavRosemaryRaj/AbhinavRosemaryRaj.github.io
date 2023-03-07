@@ -1,0 +1,13 @@
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
