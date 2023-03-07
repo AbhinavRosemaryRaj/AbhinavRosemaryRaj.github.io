@@ -1,20 +1,40 @@
-.header{
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 80px;
+body{
+background-color:lightblue;
+}
+
+.wrapper{
+    margin: 0px auto;
+    width: 1000px;
+    background-color: lightcyan;
 }
 
 .centered{
     position: absolute;
+    font-size: 50px;
+    color: #fff;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -475%);
 }
 
 .container{
-    margin: 0 auto;
+    margin: 0% auto;
+    max-width: 1500px;
+
 }
-img{
+
+.wide-img{
+    margin-top: -1%;
+}
+
+.small-img{
     float: left;
+    padding-left: 10px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+}
+
+.h1-title{
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
