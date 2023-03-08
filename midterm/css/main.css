@@ -4,13 +4,14 @@ background-color:lightblue;
 
 .wrapper{
     margin: 0px auto;
-    width: 1000px;
+    width: 1050px;
     background-color: lightcyan;
 }
 
 .centered{
     position: absolute;
     font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #fff;
     top: 50%;
     left: 50%;
@@ -20,7 +21,7 @@ background-color:lightblue;
 .container{
     margin: 0% auto;
     max-width: 1500px;
-
+    padding-right: 15px;
 }
 
 .wide-img{
@@ -37,4 +38,18 @@ background-color:lightblue;
 .h1-title{
     padding-bottom: 10px;
     padding-left: 10px;
+    transform: translate(0%, 60%);
+}
+
+.p1-article{
+    margin-right: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.facts{
+    padding-left: 10px;
+}
+
+h1, h2, p, .facts{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
