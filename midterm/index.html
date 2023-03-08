@@ -21,6 +21,11 @@
                     <li>CONTACT</li>
                 </ul>
             </nav>
+            <div class="vl"></div>
+            <div class="vl-2"></div>
+
+            <!-- vl class for vertical line-->
+
         </div>
         <article class="container">
             <h1 class="h1-title">Life of a Starfish</h1>
@@ -30,35 +35,38 @@
         <section class="facts">
             <h2>Facts About Starfish</h2>
             <ul class="factslist">
-            <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</p1><br>
-            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</p2><br>
-            <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</p3><br>
-            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</p4>
+            <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
+            <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
+            <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             </ul>
         </section>
         <section>
             <h1>Contact to learn more</h1>
             <form>
-                <label for="fname">Your Name:</label><br>
+                <label for="fname">Your Name</label><br>
                 <input type="text" id="yname" name="yname"><br>
-                <label for="lname">Your Email:</label><br>
+                <label for="lname">Your Email</label><br>
                 <input type="text" id="yemail" name="yemail">
-                <label for="lname">Your Message:</label><br>
-                <input type="text" id="ymessage" name="ymessage">
+                <label for="lname">Your Message</label>
+                <textarea id="message"></textarea>
 
-                <p>Would you like to visit the Starfish?</p>
-
-                <input type="radio" id="Yes" name="fav_language" value="HTML">
-                <label for="yes">Yes</label><br>
-                <input type="radio" id="No" name="fav_language" value="CSS">
-                <label for="no">NO</label><br>
-                <input type="radio" id="Maybe" name="fav_language" value="JavaScript">
-                <label for="maybe">Maybe</label>
-                <input type="submit" value="Send">
+                <p class="choice-question">Would you like to visit the Starfish?</p>
+                    <div class="choice-label">
+                        <input type="radio" id="Yes" name="interest" value="Yes">
+                        <label for="yes">Yes</label><br>
+                        <input type="radio" id="No" name="interest" value="No">
+                        <label for="no">No</label>
+                        <input type="radio" id="Maybe" name="interest" value="JavaScript">
+                        <label for="maybe">Maybe</label>
+                     </div>
+                        <div class="submit">
+                            <input type="submit" value="SEND">
+                        </div>
             </form>
         </section>
         <footer>
-            &copy; Lone Starfish.<br>
+            &copy; Lone Starfish.
         </footer>
     </div>
 </body>

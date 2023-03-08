@@ -16,9 +16,7 @@ background-color:lightblue;
     position: absolute;
     font-size: 50px;
     color: #fff;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -725%);
+    transform: translate(125%, -250%);
 }
 
 .container{
@@ -31,26 +29,49 @@ background-color:lightblue;
     margin-top: -1%;
 }
 
-nav ul{
+nav {
+    line-height: 0px;
     font-size: 25px;
-    list-style-type: none;
-    padding: 0%;
     text-align: center;
-}
+  }
 
-nav ul li{
+nav li{
     display: inline-block;
-    margin-right: 250px;
-    padding: -250px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 /* display: inline-block allows to set a width and height on the element. */
+
+.vl{
+    border-left: 6px solid black;
+    height: 50px;
+    position: absolute;
+    left: 42%;
+    top: 350px;
+}
+
+.vl{
+    border-left: 6px solid black;
+    height: 40;
+    position: absolute;
+    left: 42%;
+    top: 350px;
+}
+
+.vl-2{
+    border-left: 6px solid black;
+    height: 50px;
+    position: absolute;
+    left: 58%;
+    top: 350px;
+}
 
 .small-img{
     float: left;
     padding-left: 10px;
     padding-right: 17px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 .h1-title{
@@ -76,17 +97,45 @@ h1{
 }
 
 form{
-    border: 100px black;
+    border: 1px solid black;
     padding: 10px;
+    margin: 10px;
+    padding-top: 30px;
 }
 
-form input{
-  width: 95%;
+form input,
+form textarea {
+  width: 97%;
   padding: 10px;
-  border: 1px solid grey;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Textarea width to adjust form boxes*/
+
+form input[type="submit"] {
+    background-color: lightcyan;
+    border: 1px solid black;
+    width: 60px;
+    padding-left: 10px;
+}
+
+form textarea {
+    height: 100px;
+  }
+
+.choice-label{
+    display:inline-flex;
+    align-items:flex-start
+}
+
+.choice-question{
+    font-weight: bolder;
 }
 
 footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
     text-align: end;
 }
