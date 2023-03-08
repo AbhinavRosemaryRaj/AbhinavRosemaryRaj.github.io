@@ -28,6 +28,22 @@ background-color:lightblue;
     margin-top: -1%;
 }
 
+nav ul{
+    font-size: 25px;
+    list-style-type: none;
+    padding: 0%;
+    text-align: center;
+}
+
+nav ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif   ;
+    display: inline-block;
+    margin-right: 250px;
+    padding: -250px;
+}
+
+/* display: inline-block allows to set a width and height on the element. */
+
 .small-img{
     float: left;
     padding-left: 10px;
