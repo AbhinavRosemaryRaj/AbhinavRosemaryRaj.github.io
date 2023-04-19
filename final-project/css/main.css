@@ -199,14 +199,13 @@ h1{
 .services h2{
     font-size: 50px;
     font-weight: 700;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: -50px;
 }
 
 .ourservices{
     width: 100%;
-
     margin: 100px;
     display: grid;
     grid-template-columns: 6, 1fr;
@@ -224,6 +223,7 @@ h1{
 /* Digital Segment */
 
 .digital-seg{
+    transform: translate(40%, 0%);
     width: 50%;
     grid-area: digital;
     background-color: #ffe6ac ;
@@ -285,6 +285,7 @@ h1{
 /* Video Production Segment */
 
 .videoprod-seg{
+    transform: translate(80%, -10%);
     grid-area: video;
     width: 20%;
     background-color: #ffe6ac;
@@ -318,13 +319,74 @@ h1{
 }
 
 /* Web Dev Segment */
+.webdev-seg h3{
+    font-size: 30px;
+    font-weight: 650;
+}
 
 .webdev-seg{
+    transform: translate(200%, -110%);
     grid-area: web;
+    width: 20%;
+    background-color: #ffe6ac;
+}
+
+.web{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.webdev-seg p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.web-image{
+    width: 100%;
+}
+
+.webbutton{
+    display: flex;
+    padding: 10%;
+    justify-content:center;
+    background-color: #222;
+    color: white ;
+}
+
+/* Print Segment */
+.print-seg h3{
+    font-size: 30px;
+    font-weight: 650;
 }
 
 .print-seg{
+    transform: translate(320%, -210%);
+    padding-top: -1000px;
     grid-area: print;
+    width: 20%;
+    background-color: #ffe6ac;
+}
+
+.print{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.print-seg p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.print-image{
+    width: 100%;
+}
+
+.printbutton{
+    display: flex;
+    padding: 10%;
+    justify-content:center;
+    background-color: #222;
+    color: white ;
 }
 
 
