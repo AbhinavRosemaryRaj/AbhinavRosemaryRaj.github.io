@@ -106,50 +106,92 @@ ul li a{
 }
 
 .searchbtn:before{
-    content: "/f002";
-    font-family: "FontAwesome";
+    content: "Search";
+    color: #c78c06;
 
 }
 
 /* Welcome Section */
 
-h1{
+.overlay{
     position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    opacity: 0.8;
+    z-index: 0;
+}
+
+h1{
+    position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-60%, -400%);
     font-size: 100px;
-    font-weight: 500;
+    font-weight: 600;
     color: white;
+    width: 1200px;
+    z-index: 1;
 }
 
 
 .welcomewrapper p{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(5%, -1250%);
     color: white;
+    width: 1200px;
 }
 
 .connect-button{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, -10%);
+    transform: translate(20%, -500%);
+    background-color:#c78c06;
+    padding: 30px;
 }
+
 
 .welcomesec{
     background-color: #222;
     opacity: 0.8;
-    padding: 650px;
-    margin-right: 100px;
-    transform: translate(10%, -100%);
+    margin-right: 300px;
+    transform: translate(10%, -110%);
 }
 
 .mainbanner-img{
-    margin-top: 0%;
     width: 100%;
+    height: 1000px
+}
+
+
+
+/* About Us Section */
+
+.aboutuswrapper{
+    background-color: #ffe6ac;
+    padding: 25px;
+}
+
+
+.aboutus{
+    float: right;
+    width: 700px;
+    margin: 0 auto;
+    transform: translate(-15%, 15%);
+}
+
+.about-img{
+    padding-left: 100px;
+}
+
+.aboutus h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.aboutus p{
+    padding-top: 60px;
 }
 
 .bottownwrapper{
