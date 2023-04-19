@@ -54,6 +54,7 @@ body{
     font-size: 20px;
 }
 
+
 /* Header Section */
 
 .mainwrapper{
@@ -111,6 +112,7 @@ ul li a{
 
 }
 
+
 /* Welcome Section */
 
 .overlay{
@@ -123,6 +125,7 @@ ul li a{
     opacity: 0.8;
     z-index: 0;
 }
+/* Overlay - Transparent box in the Welcome Section */
 
 h1{
     position:absolute;
@@ -135,7 +138,6 @@ h1{
     width: 1200px;
     z-index: 1;
 }
-
 
 .welcomewrapper p{
     position: absolute;
@@ -151,7 +153,6 @@ h1{
     padding: 30px;
 }
 
-
 .welcomesec{
     background-color: #222;
     opacity: 0.8;
@@ -165,14 +166,12 @@ h1{
 }
 
 
-
 /* About Us Section */
 
 .aboutuswrapper{
     background-color: #ffe6ac;
     padding: 25px;
 }
-
 
 .aboutus{
     float: right;
@@ -193,6 +192,141 @@ h1{
 .aboutus p{
     padding-top: 60px;
 }
+
+
+/* Our Services Section */
+
+.services h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.ourservices{
+    width: 100%;
+
+    margin: 100px;
+    display: grid;
+    grid-template-columns: 6, 1fr;
+    grid-template-areas:
+    "digital digital digital marketing marketing marketing"
+    "video video web web print print";
+}
+
+.ourservices h3{
+    font-size: 30px;
+    font-weight: 650;
+}
+
+
+/* Digital Segment */
+
+.digital-seg{
+    width: 50%;
+    grid-area: digital;
+    background-color: #ffe6ac ;
+}
+
+.digital{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.digital-seg p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.digital-image{
+    width: 100%;
+}
+
+.digitalbutton{
+    display: flex;
+    padding: 10%;
+    justify-content:center;
+    background-color: #222;
+    color: white ;
+}
+
+/* Marketing Segment */
+
+.marketing-seg{
+    width: 53%;
+    padding: 10px;
+    grid-area: marketing;
+    background-color: #ffe6ac ;
+}
+
+.marketing-seg p{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.marketing-image{
+    width: 100%;
+}
+
+.marketing{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.marketingbutton{
+    display: flex;
+    padding: 10%;
+    justify-content:center;
+    background-color: #222;
+    color: white ;
+}
+
+/* Video Production Segment */
+
+.videoprod-seg{
+    grid-area: video;
+    width: 20%;
+    background-color: #ffe6ac;
+}
+
+.video{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.videoprod-seg p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.video-image{
+    width: 100%;
+}
+
+.videobutton{
+    display: flex;
+    padding: 10%;
+    justify-content:center;
+    background-color: #222;
+    color: white ;
+}
+
+.video h3{
+    font-size: 30px;
+    font-weight: 650;
+}
+
+/* Web Dev Segment */
+
+.webdev-seg{
+    grid-area: web;
+}
+
+.print-seg{
+    grid-area: print;
+}
+
 
 .bottownwrapper{
     max-width: 1200px;
