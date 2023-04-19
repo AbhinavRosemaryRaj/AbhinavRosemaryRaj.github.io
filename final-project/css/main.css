@@ -123,11 +123,13 @@ h1{
     color: white;
 }
 
+
 .welcomewrapper p{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .connect-button{
@@ -138,13 +140,15 @@ h1{
 }
 
 .welcomesec{
-    margin: 30px;
-    background-color:#222;
-    opacity: 0.6;
+    background-color: #222;
+    opacity: 0.8;
+    padding: 650px;
+    margin-right: 100px;
+    transform: translate(10%, -100%);
 }
 
 .mainbanner-img{
-    margin-top: -2%;
+    margin-top: 0%;
     width: 100%;
 }
 
